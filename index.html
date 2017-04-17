@@ -4,19 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Include Bootstrap</title>
+  <title>Day03 Grid Layout Practice</title>
 
-  <!-- <link rel="stylesheet" href="css/boostrap.min.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <button type="button" name="button" class="btn btn-primary">Click Me!</button>
+
+  <body class="container-fluid">
+    <p>[container-fluid]</p>
+
+  <div class="container">
+    <div class="row">
+      <header class="col-xs-12">
+        <p>[header]</p>
+      </header>
+    </div>
+    <div class="row">
+      <nav class="col-xs-12">
+        <p>[nav]</p>
+      </nav>
+    </div>
+
+  <main>
+    <div class="article">
+      <div class="row">
+        <section class="col-xs-9">
+          <p>[content]</p>
+        </section>
+        <aside class="col-xs-3">
+          <p>[aside]</p>
+        </aside>
+      </div>
+    </div>
+
+    <div class="promo">
+      <div class="row">
+        <div class="col-xs-3">
+          <p>[promo 1]</p></div>
+        <div class="col-xs-3">
+          <p>[promo 2]</p></div>
+        <div class="col-xs-3">
+          <p>[promo 3]</p></div>
+        <div class="col-xs-3">
+            <p>[promo 4]</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="row">
+    <div class="col-xs-12">
+      <p>[footer]</p>
+  </footer>
+    </div>
+</div>
   <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-<!-- <script type="text/javascript" src="js/boostrap.css"></script> -->
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  			  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			  crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
