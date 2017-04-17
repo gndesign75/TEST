@@ -1,0 +1,39 @@
+body {
+  background-color: #ff0;
+}
+header, nav, section, aside, .promo .col-xs-3, footer {
+  padding-top: 10px;
+  border:2px solid #000;
+}
+
+header {
+  background-color: #00f;
+  height: 150px;
+}
+
+nav {
+  background-color: #060;
+  height: 75px;
+}
+
+section {
+  background-color: #f00;
+  height: 225px;
+}
+
+aside {
+  background-color: #3cf;
+  height: 225px;
+}
+
+.promo .col-xs-3 {
+  background-color: #f90;
+  height: 150px;
+  /*border: 2px solid #000;*/
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
+  height: 80px;
+}
